@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Cleaning Machine World</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Poppins,sans-serif;scroll-behavior:smooth}
+body{background:#efefec;color:#2f2f2f}
+header{position:sticky;top:0;background:#3d3d3d;color:#fff;padding:16px 7%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 4px 12px rgba(0,0,0,.15)}
+header img{height:78px}
+nav a{color:#fff;text-decoration:none;margin-left:22px;font-weight:600}
+.hero{background:linear-gradient(rgba(45,45,45,.68),rgba(45,45,45,.68)),url("images/hero.jpg") center/cover;height:88vh;display:flex;justify-content:center;align-items:center;text-align:center;color:#fff;padding:20px}
+.hero h1{font-size:58px}
+.hero p{max-width:760px;margin:20px auto;font-size:18px}
+.btn{display:inline-block;margin:10px;padding:14px 28px;background:#555;color:#fff;text-decoration:none;border-radius:30px}
+.btn:hover{background:#222}
+section{padding:70px 8%}
+.title{text-align:center;margin-bottom:40px}
+.title h2{font-size:38px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.about img{width:100%;border-radius:14px;box-shadow:0 10px 25px rgba(0,0,0,.15)}
+.about ul{margin-top:15px;padding-left:20px}
+.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px}
+.card{background:#fff;border-radius:15px;overflow:hidden;box-shadow:0 8px 20px rgba(0,0,0,.12);transition:.3s}
+.card:hover{transform:translateY(-8px)}
+.card img{width:100%;height:220px;object-fit:cover}
+.card h3,.card p{padding:16px}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.box{background:#fff;padding:30px;border-radius:15px;text-align:center;box-shadow:0 6px 18px rgba(0,0,0,.1)}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.gallery img{width:100%;height:200px;object-fit:cover;border-radius:12px}
+.contact{background:#4d4d4d;color:#fff;border-radius:18px;padding:40px;text-align:center}
+footer{background:#2b2b2b;color:#ddd;text-align:center;padding:25px;margin-top:50px}
+@media(max-width:850px){
+.hero h1{font-size:40px}
+.about{grid-template-columns:1fr}
+header{flex-direction:column;gap:15px}
+}
+</style>
+</head>
+<body>
+
+<header>
+<img src="images/logo.png" alt="Cleaning Machine World">
+<nav>
+<a href="#about">About</a>
+<a href="#products">Products</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Cleaning Machine World</h1>
+<p>Professional supplier of industrial and commercial floor cleaning machines with a proven record of satisfied customers across Delhi NCR and throughout India.</p>
+<a class="btn" href="tel:+919540446522">Call Now</a>
+<a class="btn" href="mailto:cleaningmachineworld@gmail.com">Email</a>
+</div>
+</section>
+
+<section id="about">
+<div class="title"><h2>About Us</h2></div>
+<div class="about">
+<img src="images/rideon.jpg.jpeg" alt="">
+<div>
+<p>Cleaning Machine World is an established New Delhi based company supplying high-quality industrial and commercial floor cleaning equipment. We provide dependable, cost-effective solutions for hotels, hospitals, shopping malls, factories, offices, educational institutions and housekeeping professionals.</p><br>
+<p>Our product range includes Ride-On Scrubber Dryers, Single Disc Machines, Wet & Dry Vacuum Cleaners, Manual Sweepers, Hand Scrubbers, Mop Scooty and other professional cleaning equipment. We are committed to quality products, prompt service and long-term customer satisfaction.</p>
+<P>GSTIN: 07BQSPK1965M1Z2</P>
+<ul>
+<li>Ride-On Scrubber Dryers</li>
+<li>Wet & Dry Vacuum Cleaners</li>
+<li>Single Disc Machines</li>
+<li>Manual Sweepers</li>
+<li>Hand Scrubbers & Mop Scooty</li>
+</ul>
+</div>
+</div>
+</section>
+
+<section id="products">
+<div class="title"><h2>Our Products</h2></div>
+<div class="products">
+<div class="card"><img src="images/singledisc.jpg.jpeg"><h3>Single Disc Machine</h3><p>Scrubbing, polishing and floor maintenance.</p></div>
+<div class="card"><img src="images/vacuum.jpg.jpeg"><h3>Wet & Dry Vacuum</h3><p>Powerful commercial cleaning equipment.</p></div>
+<div class="card"><img src="images/vacuum2.jpg.jpeg"><h3>Industrial Vacuum</h3><p>Heavy-duty vacuum for industrial applications.</p></div>
+<div class="card"><img src="images/rideon.jpg.jpeg"><h3>Ride-On Scrubber</h3><p>Ideal for malls, airports, hospitals and factories.</p></div>
+</div>
+</section>
+
+<section>
+<div class="title"><h2>Why Choose Us</h2></div>
+<div class="why">
+<div class="box"><h3>Reliable Machines</h3><p>Commercial quality equipment.</p></div>
+<div class="box"><h3>Pan India Supply</h3><p>Serving customers across India.</p></div>
+<div class="box"><h3>Trusted Service</h3><p>Strong after-sales support.</p></div>
+<div class="box"><h3>Competitive Pricing</h3><p>Value without compromising quality.</p></div>
+</div>
+</section>
+
+<section id="gallery">
+<div class="title"><h2>Gallery</h2></div>
+<div class="gallery">
+<img src="images/hero.jpg.jpeg">
+<img src="images/rideon.jpg.jpeg">
+<img src="images/singledisc.jpg.jpeg">
+<img src="images/vacuum.jpg.jpeg">
+<img src="images/vacuum2.jpg.jpeg">
+</div>
+</section>
+
+<section id="contact">
+<div class="contact">
+<h2>Contact Us</h2>
+<p><strong>Address:</strong><br>471/37 Zakir Nagar,<br>New Delhi – 110025, India</p><br>
+<p><strong>Phone:</strong> +91 95404 46522</p>
+<p><strong>Phone (alternate):</strong> +91 88103 51650</p>
+<p><strong>Email:</strong> cleaningmachineworld@gmail.com</p>
+</div>
+</section>
+
+<footer>
+© 2026 Cleaning Machine World • Professional Floor Cleaning Equipment Supplier
+</footer>
+
+</body>
+</html>
